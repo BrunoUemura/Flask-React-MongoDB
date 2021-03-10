@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div>
+      <div className="container p-4">
         <Switch>
           <Route path="/about" component={About} />
           <Route path="/" component={Users} />
